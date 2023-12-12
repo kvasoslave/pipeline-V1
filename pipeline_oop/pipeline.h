@@ -1,3 +1,6 @@
+#ifndef PIPELINE_H_
+#define PIPELINE_H_
+
 #include <functional>
 #include <type_traits>
 
@@ -40,3 +43,5 @@ template <typename T> auto to_callable(T func) {
   };
 }
 } // namespace pipeline
+
+#endif
